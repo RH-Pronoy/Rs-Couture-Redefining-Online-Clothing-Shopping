@@ -16,11 +16,11 @@
             <h3>Contact Us</h3>
             <p>Email: support@example.com</p>
             <p>Phone: +123-456-7890</p>
-            <p>Address: 123 Fashion Street, Style City</p>
+            <p>Address: 123 Fashion Street</p>
         </div>
     
     </div>
     <div class="footer-bottom">
-        <p>&copy; 2024 Winter Collection. All rights reserved.</p>
+        <p>&copy; 2025 Winter Collection. All rights reserved.</p>
     </div>
 </footer>
