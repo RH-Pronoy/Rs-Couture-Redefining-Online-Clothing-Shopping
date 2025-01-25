@@ -1,19 +1,17 @@
 <?php
-// Connect to the database
 $conn = new mysqli('localhost', 'root', '', 'fashion_store');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Fetch new arrivals from the database
+
 $newArrivalsQuery = "SELECT id, name, price, images FROM new_arrivals ORDER BY id DESC LIMIT 10";
 $newArrivalsResult = $conn->query($newArrivalsQuery);
 
-// Fetch sale products from the database
 $saleQuery = "SELECT id, name, price, images FROM sale ORDER BY id DESC LIMIT 10";
 $saleResult = $conn->query($saleQuery);
 
-// Fetch winter arrivals from the database
+
 $winterQuery = "SELECT id, name, price, images FROM winter ORDER BY id DESC LIMIT 5";
 $winterResult = $conn->query($winterQuery);
 ?>
